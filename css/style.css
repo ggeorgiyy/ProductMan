@@ -1,0 +1,229 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/*--------------------------------------
+Header Start
+---------------------------------------*/
+.header-container {
+		font-size: 0;
+		max-width: 100%;
+		max-height: 10%;
+ 		 margin: 0 auto;
+ 		 padding: 0 10px;
+ 		 
+}
+
+h1 {
+
+	display: inline-block;
+  text-align: right;
+
+height: 100%;
+color: #303030;
+font-family: Roboto;
+font-size: 48px;
+font-weight: 900;
+line-height: 27px;
+	
+}
+
+
+.main-navigation {
+  display: inline-block;
+  width: 60%;
+  vertical-align: middle;
+}
+ 
+ a {text-decoration: none;}
+
+.menu {
+	list-style-type: none;
+	font-size: 15px;
+	  padding-left: 0;
+  margin: 0;
+  text-align: right;
+
+}
+
+.menu li {
+	
+	display: inline-block;
+
+width: 299px;
+height: 14px;
+color: #303030;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+margin-right: 1%;
+margin-left: -15%;
+text-decoration: none;
+  transition: color .5s ease;
+}
+
+ul:first-child {
+	margin-right: 10%;
+}
+
+
+.menu li a:hover {
+  color: gray;
+}
+
+
+
+/*--------------------------------------
+Header  End
+---------------------------------------*/
+
+/*--------------------------------------
+Slide Start
+---------------------------------------*/
+.slider {width: 100%;
+	max-height: 40%;
+
+
+}
+
+
+.slide-content {
+
+  vertical-align: middle;
+  
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.left-column {
+	display: inline-block;
+	max-width: 50%;
+	max-height: 100%;
+}
+
+.title {
+
+text-align: right;
+color: #303030;
+font-family: Raleway;
+font-size: 750%;
+font-weight: 900;
+line-height: 100%;
+text-transform: uppercase;
+
+
+padding: 0;
+margin: 0;
+}
+
+.text {
+	display: block;
+	width: 100%;
+height: 95px;
+text-align: right;
+color: #303030;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 300;
+line-height: 36px;
+overflow: auto;
+}
+
+
+.link {
+	
+text-align: right;
+
+color: #e10011;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+}
+
+/*--IMAGE start--*/
+.slider-image {
+	display: inline-block;
+ 
+  
+}
+
+img {
+	padding-left: 25%;
+	
+	
+}
+
+h3 {
+	margin-top: 5%;
+	margin-bottom: 20%;
+}
+
+/*--IMAGE end--*/
+
+
+/*--list of slides start --*/
+
+.circles {
+	max-width: 100%;
+	max-height: 20%;
+}
+
+.slide-nav {
+	height: 100%
+	max-width: 100%;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: 0;
+  text-align: center;
+}
+.slide-nav li {
+  display: inline-block;
+  font-size: 16px;
+}
+.slide-nav button {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border-radius: 50px;
+  border: 0;
+  /*background-color: black;*/
+  transition: all .3s ease;
+}
+.slide-nav button.active {
+  background-color: red;
+}
+.slide-nav button:focus {
+  outline: none;
+}
+.slide-nav button:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+.slide-nav li:nth-child(2) button {
+  margin: 0 7px;
+}
+.slide-nav button span {
+  visibility: hidden;
+  position: absolute;
+}
+
+
+/*--list of slides end --*/
+
+
+
+
+/*--------------------------------------
+Slide End
+---------------------------------------*/
